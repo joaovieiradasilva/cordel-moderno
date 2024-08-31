@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: darkgray;
+    height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+header h1 {
+    font-family: 'passion one';
+    font-size: 10vw;
+    font-variant: small-caps;
+}
+
+header p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+}
+
+/* Área Section Normal */
+
+section {
+    font-family: 'sriracha';
+    font-size: 3.5vw;
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.normal p {
+    padding-bottom: 2em;
+}
+
+section.imagem {
+    color: white;
+    box-shadow: inset 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+section.imagem p {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    width: 45vw;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+section.imagem#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.imagem#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Área Footer */
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
